@@ -1,0 +1,52 @@
+   header {
+            background-color:blueviolet;
+             color:white;
+                    text-align:center;
+                    max-width:800px;
+                    margin:0 auto;
+                    padding: 10px;
+        }
+
+        main {
+            display:flex;
+                flex-wrap: wrap;
+                background-color:rgb(50, 178, 176);
+            color:black;
+                max-width: 800px;
+            margin:0 auto;
+            padding: 16px;
+        }
+
+        article {
+            display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-aling: center;
+                justify-content: center;
+                border: 1px solid white;
+                margin:16px;
+                gap: 16px;
+                padding: 16px;
+                flex: 1 1 25%;
+            margin-bottom: 20px;
+        }
+
+        img {
+            width: 80px;
+            height: 80px;
+            margin-right: 15px;
+        }
+
+        .artigo-autor {
+            font-weight: bold;
+        }
+
+        .direitos {
+            text-align: center;
+            color:darkviolet;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+        }
